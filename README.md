@@ -4,6 +4,7 @@ The CHM_9001_00 Trinitron monitor was originally designed for 25kHz horizontal s
 
 ## Modifications to CHM-9001-00 CRT boards for operation at 31.5kHz
 * 20kOhm resistor in parallel with R504 on Board D in order to bias the horizontal oscillator circuit. Some adjustment of pot RV501 will likely be necessary to get it to sync to 31.5kHz.<br><br>
+![D_mod](D_mod1.png)
 * 400kOhm resistor in parallel with R018 on Board B in order to sufficiently decrease the duration of the "HD" pulse to fit within a 31.5kHz period. Again, adjustment of the associated pot RV001 is still necessary to get the horizontal raster to look correct.<br><br>
 * Optionally, add 47 Ohm resistors across R915, R926, and R935 of Board B. These resistors appear to be for scaling the current sources used on the RGB signals that are sent to the neck board (it appears to use current waveforms instead of voltage, probably to reduce the effects of interference on the associated cable). I found that I needed to add these resistors to boost the current a bit to increase the contrast. I suspect that the increase in horizontal frequency results in a small decrease in some of the flyback-generated supplies, including the one used for the cathode amplifiers. So boosting the RGB signal a bit helps to compensate.<br><br>
 * Brightness and contrast inputs jumpered directly to the 12V pin on the "B2" connector/cable, in which case the "Sub Brightness" and "Sub Contrast" pots on Board B can be used to make manual adjustments.<br><br>
