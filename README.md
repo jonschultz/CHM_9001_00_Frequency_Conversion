@@ -24,11 +24,11 @@ After evaluating a few options for powering the CHM-9001-00, which requires a no
 * The nominal B+ voltage requirement for the CHM-9001-00 is 120V DC, but with the frequency conversion to 31.5kHz that I detailed above, the horizontal raster will be reduced at this voltage. I've successfully run the CHM-9001-00 at around 130V by trimming my supply up (adjustable by way of "POT1" in the DC section) without any issue. This doesn't quite make raster the full width of the CRT, but it's close. I don't know how far the B+ can be safely pushed up. You can try at your own risk. The design of this supply will max out around 145V.<br>
 * DC input for the B+ on the CHM-9001-00 is at the "B4" connector (red and white stripe for +120V, black for ground, blue for degauss). Be careful to make the proper connections. Gegauss can be activated by momentarily connecting the degauss pin to ground (NOT 120V!).<br>
 * Always be careful around 120V DC. Even though this is an isolated voltage, it's still large! It's also not as physically apparent when you accidentally touch a large DC voltage, as with AC.<br><br>
-<br>
+<br><br>
 ![schem](power_supply1.png)
-<br>
+<br><br>
 ![enclosure](supply_enclosure1.PNG)
-<br>
+<br><br>
 ![PCBA](supply_PCBA1.PNG)
 <br>
 Tom Verbeure's excellent GitHub repository on the CHM-9001-00 has lots of additional information about this Trinitron monitor, available [here](https://tomverbeure.github.io/2022/10/05/Sony-CHM-9001-00-CRT.html).<br><br>
