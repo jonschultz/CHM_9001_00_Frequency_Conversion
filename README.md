@@ -27,7 +27,7 @@ After evaluating a few options for powering the CHM-9001-00, which requires a no
 * Always be careful around 120V DC. Even though this is an isolated voltage, it's still large! It's also not as physically apparent when you accidentally touch a large DC voltage, as with AC.<br><br>
 <br><br>
 
-![schem](power_supply1.png)
+![schem](power_supply2.png)
 <br><br>
 
 ![enclosure](supply_enclosure1.PNG)
