@@ -38,4 +38,7 @@ After evaluating a few options for powering the CHM-9001-00, which requires a no
 ![PCBA](supply_PCBA1.PNG)
 <br><br>
 
+![supply3](power_supply3.PNG)
+<br><br>
+
 Tom Verbeure's excellent GitHub repository on the CHM-9001-00 has lots of additional information about this Trinitron monitor, available [here](https://tomverbeure.github.io/2022/10/05/Sony-CHM-9001-00-CRT.html).<br><br>
